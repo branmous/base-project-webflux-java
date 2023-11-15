@@ -1,14 +1,16 @@
 package com.base.project.config;
 
-import org.springframework.context.annotation.ComponentScan;
+import com.base.project.model.category.gateways.CategoryRepository;
+import com.base.project.usecase.findallcategories.FindAllCategoriesUseCase;
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.FilterType;
 
 @Configuration
-@ComponentScan(basePackages = "com.base.project.usecase",
-        includeFilters = {
-                @ComponentScan.Filter(type = FilterType.REGEX, pattern = "^.+UseCase$")
-        },
-        useDefaultFilters = false)
 public class UseCasesConfig {
+
+    @Bean
+    public FindAllCategoriesUseCase buildFindAllCategoriesUseCase(final CategoryRepository categoryRepository) {
+        return new FindAllCategoriesUseCase(categoryRepository);
+    }
+
 }
