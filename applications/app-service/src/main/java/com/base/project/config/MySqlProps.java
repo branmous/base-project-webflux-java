@@ -1,6 +1,6 @@
 package com.base.project.config;
 
-import com.base.project.r2dbcmysql.config.utils.MySqlProperties;
+import com.base.project.r2dbcmysql.config.properties.MySqlProperties;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Configuration;

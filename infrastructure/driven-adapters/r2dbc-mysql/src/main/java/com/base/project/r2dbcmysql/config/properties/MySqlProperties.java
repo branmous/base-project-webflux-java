@@ -1,4 +1,4 @@
-package com.base.project.r2dbcmysql.config.utils;
+package com.base.project.r2dbcmysql.config.properties;
 
 import lombok.Getter;
 import lombok.Setter;

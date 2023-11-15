@@ -1,7 +1,7 @@
 package com.base.project.r2dbcmysql.config;
 
 
-import com.base.project.r2dbcmysql.config.utils.MySqlProperties;
+import com.base.project.r2dbcmysql.config.properties.MySqlProperties;
 import io.r2dbc.pool.PoolingConnectionFactoryProvider;
 import io.r2dbc.spi.ConnectionFactories;
 import io.r2dbc.spi.ConnectionFactory;
@@ -56,6 +56,7 @@ public class MysqlConfiguration extends AbstractR2dbcConfiguration {
                 .option(USER, properties.getUsername())
                 .option(PASSWORD, password)
                 .option(DATABASE, properties.getDb())
+
                 .build());
     }
 }
