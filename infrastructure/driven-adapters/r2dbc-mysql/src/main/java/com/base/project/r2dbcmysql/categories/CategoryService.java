@@ -7,7 +7,8 @@ import org.reactivecommons.utils.ObjectMapper;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public class CategoryService extends ReactiveAdapterOperations<Category, CategoryData, Long, CategoryDataRepository> implements CategoryRepository {
+public class CategoryService extends ReactiveAdapterOperations<Category, CategoryData, Long, CategoryDataRepository>
+        implements CategoryRepository {
     protected CategoryService(CategoryDataRepository repository, ObjectMapper mapper) {
         super(repository, mapper, data -> mapper.map(data, Category.class));
     }
