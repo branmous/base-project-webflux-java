@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: io.projectreactor.tools:blockhound:1.0.8.RELEASE" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="io.projectreactor.tools" artifactId="blockhound" version="1.0.8.RELEASE" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.projectreactor.tools/blockhound/1.0.8.RELEASE/e0dd72a1e2bc8e6a4e9f5ea3732a583695d9f0b6/blockhound-1.0.8.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.projectreactor.tools/blockhound/1.0.8.RELEASE/7469a6267934e82d030d85e70d29f46c2e4e45c8/blockhound-1.0.8.RELEASE-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

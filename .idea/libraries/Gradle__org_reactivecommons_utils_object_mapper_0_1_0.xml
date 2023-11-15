@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: org.reactivecommons.utils:object-mapper:0.1.0" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="org.reactivecommons.utils" artifactId="object-mapper" version="0.1.0" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.reactivecommons.utils/object-mapper/0.1.0/2a0b72bb1f9a6e1beae369de8ada960a9380a030/object-mapper-0.1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.reactivecommons.utils/object-mapper/0.1.0/d78a2425fac33d25a6933e8741307a3cd49ac7a5/object-mapper-0.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

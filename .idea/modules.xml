@@ -2,7 +2,27 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/base-project-webflux-java.iml" filepath="$PROJECT_DIR$/.idea/base-project-webflux-java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/baseProject.iml" filepath="$PROJECT_DIR$/.idea/modules/baseProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/applications/app-service/baseProject.app-service.iml" filepath="$PROJECT_DIR$/.idea/modules/applications/app-service/baseProject.app-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/applications/app-service/baseProject.app-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/applications/app-service/baseProject.app-service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/applications/app-service/baseProject.app-service.test.iml" filepath="$PROJECT_DIR$/.idea/modules/applications/app-service/baseProject.app-service.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/baseProject.main.iml" filepath="$PROJECT_DIR$/.idea/modules/baseProject.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/model/baseProject.model.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/model/baseProject.model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/model/baseProject.model.main.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/model/baseProject.model.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/model/baseProject.model.test.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/model/baseProject.model.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/infrastructure/driven-adapters/r2dbc-mysql/baseProject.r2dbc-mysql.iml" filepath="$PROJECT_DIR$/.idea/modules/infrastructure/driven-adapters/r2dbc-mysql/baseProject.r2dbc-mysql.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/infrastructure/driven-adapters/r2dbc-mysql/baseProject.r2dbc-mysql.main.iml" filepath="$PROJECT_DIR$/.idea/modules/infrastructure/driven-adapters/r2dbc-mysql/baseProject.r2dbc-mysql.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/infrastructure/driven-adapters/r2dbc-mysql/baseProject.r2dbc-mysql.test.iml" filepath="$PROJECT_DIR$/.idea/modules/infrastructure/driven-adapters/r2dbc-mysql/baseProject.r2dbc-mysql.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/infrastructure/driven-adapters/r2dbc-postgresql/baseProject.r2dbc-postgresql.iml" filepath="$PROJECT_DIR$/.idea/modules/infrastructure/driven-adapters/r2dbc-postgresql/baseProject.r2dbc-postgresql.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/infrastructure/driven-adapters/r2dbc-postgresql/baseProject.r2dbc-postgresql.main.iml" filepath="$PROJECT_DIR$/.idea/modules/infrastructure/driven-adapters/r2dbc-postgresql/baseProject.r2dbc-postgresql.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/infrastructure/driven-adapters/r2dbc-postgresql/baseProject.r2dbc-postgresql.test.iml" filepath="$PROJECT_DIR$/.idea/modules/infrastructure/driven-adapters/r2dbc-postgresql/baseProject.r2dbc-postgresql.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/infrastructure/entry-points/reactive-web/baseProject.reactive-web.iml" filepath="$PROJECT_DIR$/.idea/modules/infrastructure/entry-points/reactive-web/baseProject.reactive-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/infrastructure/entry-points/reactive-web/baseProject.reactive-web.main.iml" filepath="$PROJECT_DIR$/.idea/modules/infrastructure/entry-points/reactive-web/baseProject.reactive-web.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/infrastructure/entry-points/reactive-web/baseProject.reactive-web.test.iml" filepath="$PROJECT_DIR$/.idea/modules/infrastructure/entry-points/reactive-web/baseProject.reactive-web.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/baseProject.test.iml" filepath="$PROJECT_DIR$/.idea/modules/baseProject.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/usecase/baseProject.usecase.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/usecase/baseProject.usecase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/usecase/baseProject.usecase.main.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/usecase/baseProject.usecase.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/usecase/baseProject.usecase.test.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/usecase/baseProject.usecase.test.iml" />
     </modules>
   </component>
 </project>
