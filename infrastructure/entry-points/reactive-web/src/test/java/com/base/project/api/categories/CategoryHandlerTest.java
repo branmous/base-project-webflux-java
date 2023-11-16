@@ -1,6 +1,7 @@
 package com.base.project.api.categories;
 
 import com.base.project.model.category.Category;
+import com.base.project.usecase.createphotos.CreatePhotosUseCase;
 import com.base.project.usecase.findallcategories.FindAllCategoriesUseCase;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,6 +23,9 @@ class CategoryHandlerTest {
 
     @MockBean
     private FindAllCategoriesUseCase useCase;
+
+    @MockBean
+    private CreatePhotosUseCase createPhotosUseCase;
 
     @Test
     public void testGetAllCategories() {

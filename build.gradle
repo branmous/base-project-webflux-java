@@ -5,6 +5,7 @@ buildscript {
 		sonarVersion = '4.2.1.3168'
 		jacocoVersion = '0.8.10'
         lombokVersion = '1.18.28'
+        mapstructVersion = '1.5.3.Final'
 	}
 }
 

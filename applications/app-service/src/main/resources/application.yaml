@@ -20,21 +20,26 @@ management:
     health:
       probes:
         enabled: true
+  health:
+    circuitbreakers:
+      enabled: true
 cors:
   allowed-origins: "http://localhost:4200,http://localhost:8080"
-
-
 mysql:
   datasource:
-    db: productdb
-    host-and-port: localhost:3306
-    username: root
-    password: root1234
-    driver: pool
-    protocol: mysql
+    db: "productdb"
+    host-and-port: "localhost:3306"
+    username: "root"
+    password: "root1234"
+    driver: "pool"
+    protocol: "mysql"
     connection-pool:
       acquire-retry: 3
       min-idle: 10
       max-idle-time: 10
       background-eviction-interval: 10
       validation-query: "SELECT 1"
+adapter:
+  restconsumer:
+    timeout: 5000
+    url: "https://jsonplaceholder.typicode.com"
